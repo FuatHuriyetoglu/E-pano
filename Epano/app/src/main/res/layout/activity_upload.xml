@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DF995E"
+    tools:context=".view.Upload">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="100dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="129dp"
+        android:onClick="UploadImage"
+        android:text="UTIYO Yükle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/commentText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/commentText"
+        app:layout_constraintTop_toBottomOf="@+id/commentText"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/commentText"
+        android:layout_width="261dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Add Comment "
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="303dp"
+        android:layout_height="248dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="54dp"
+        android:onClick="SelectImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/galeryy" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="129dp"
+        android:onClick="UploadToMYO"
+        android:text="MYO yükle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/commentText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1016588653121",
+    "project_id": "e-pano",
+    "storage_bucket": "e-pano.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016588653121:android:08550786d3444c6e1aecc0",
+        "android_client_info": {
+          "package_name": "com.fuathuriyetoglu.e_pano"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016588653121-575ro2lffhu6thkoi9ekhphckhd2h1l7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWo7eH9L2AgSDUNShu5kek4KFIA2Tkmyc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1016588653121-575ro2lffhu6thkoi9ekhphckhd2h1l7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
